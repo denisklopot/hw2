@@ -1,4 +1,6 @@
 .message {
+    position: absolute;
+    margin-right: 15px;
     background-color: #0066CC;
     padding: 10px;
     align-content: flex-end;
