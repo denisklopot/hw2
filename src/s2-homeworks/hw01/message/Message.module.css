@@ -3,18 +3,20 @@
     margin-bottom: 40px;
 }
 
-/* width: 15px;
- height: 15px;
- background: radial-gradient(circle at 0 0, rgba(0, 0, 0, 0) 15px, #0066CC 0);
+/*
 
+width: 15px;
+height: 15px;
+background: radial-gradient(triangle at 0 0,
+   rgba(0, 0, 0, 0) 15px,
+   #0066CC 0);
 */
+
 .imageAndText {
     position: relative;
     display: flex;
     flex-direction: row-reverse;
     align-items: flex-end;
-
-
 }
 
 .imageAndText img {
@@ -30,8 +32,7 @@
     text-align: right;
     background-color: #0066CC;
     border-radius: 5px;
-    max-width: 500px;
-    min-width: 300px;
+
 }
 
 .text:after {
