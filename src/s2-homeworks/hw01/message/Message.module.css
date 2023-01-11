@@ -1,43 +1,37 @@
 .message {
     position: relative;
-    background-color: #0066CC;
-    align-content: flex-end;
-    margin-right: 118px;
-    /*margin-left: calc(100% - 740px);*/
-    border-radius: 5px;
+    border: 1px solid;
 
 }
-   /* width: 15px;
-    height: 15px;
-    background: radial-gradient(circle at 0 0, rgba(0, 0, 0, 0) 15px, #0066CC 0);
+
+/* width: 15px;
+ height: 15px;
+ background: radial-gradient(circle at 0 0, rgba(0, 0, 0, 0) 15px, #0066CC 0);
 
 */
 .imageAndText {
     position: relative;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-end;
 
 }
 
 .imageAndText img {
-    position: absolute;
     width: 48px;
     height: 48px;
-    border-radius: 50%;
-    margin-right: 70px;
+    margin: 0 70px 0 15px;
 }
 
 .text {
+    color: #FFFFFF;
     font-size: 16px;
     font-family: Montserrat;
     text-align: right;
-    /*border-bottom: 17px solid #dfd087;
-    border-left: 16px solid transparent;
-    border-right: 16px solid transparent;*/
+    background-color: #0066CC;
 }
 
 .text:after {
-    /*border-bottom: 15px solid #f8e896;
-    border-left: 15px solid transparent;
-    border-right: 15px solid transparent;*/
 
 }
 
@@ -46,29 +40,26 @@
     font-family: Montserrat;
     color: #FFFFFF;
     padding-top: 8px;
-    padding-right: 0px;
+    padding-right: 14px;
     font-weight: bold;
-    /*align-items: flex-end;
-    margin-top: 7px;
-    margin-right: 25px;*/
 }
 
 .messageText {
-    color: #FFFFFF;
     font-size: 16px;
     font-family: Montserrat;
-    margin-top: 3px;
-    margin-bottom: 8px;
-
+    text-align: right;
+    margin-right: 15px;
+    padding-left: 13px;
+    padding-bottom: 8px;
+    padding-top: 3px;
+    border-radius: 5px;
 }
 
 .time {
-    display: flex;
     position: absolute;
+    right: 14px;
     color: #000000;
     font-size: 10px;
     font-family: Montserrat;
-    margin-right: 0px;
     margin-top: 5px;
-
 }
