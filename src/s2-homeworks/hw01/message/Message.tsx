@@ -31,6 +31,7 @@ const Message = (props: MessagePropsType) => {
                     </pre>
                 </div>
             </div>
+            <span className={s.ugol} />
             <div id={'hw1-time-' + props.message.id} className={s.time}>
                 {/*создаёт студент*/}
                     {props.message.message.time}
