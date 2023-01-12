@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 import Affair from './affair/Affair'
 import {AffairType, FilterType} from '../HW2'
 import s from './Affairs.module.css'
@@ -17,6 +17,7 @@ function Affairs(props: AffairsPropsType) {
     }
     const setHigh = () => {
         // need to fix
+
     }
     const setMiddle = () => {
         // need to fix
