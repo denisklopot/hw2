@@ -26,7 +26,7 @@ const Message = (props: MessagePropsType) => {
                     </div>
                     <p id={'hw1-text-' + props.message.id} className={s.messageText}>
                         {/*создаёт студент*/}
-                            {props.message.id}
+                            {props.message.message.text}
                         {/**/}
                     </p>
                 </div>
